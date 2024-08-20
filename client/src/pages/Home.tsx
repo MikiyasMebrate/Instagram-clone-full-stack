@@ -1,10 +1,12 @@
 import Header from "../components/header/Header"
+import Story from "../components/header/Story"
 
 const Home = () =>{
     return(
         <>
-         <section>
+         <section className="">
             <Header />
+            <Story />
          </section>
         </>
     )

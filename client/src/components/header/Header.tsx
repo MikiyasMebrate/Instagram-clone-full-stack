@@ -8,7 +8,7 @@ import {FaPlus, FaRegHeart} from "react-icons/fa6"
 const Header = () => {
     return (
         <>
-            <Navbar className="bg-black" fluid>
+            <Navbar className="bg-black border-b border-b-slate-700" fluid>
                 <Navbar.Brand>
                     <img src={instagramIcon} className="mr-3 ms-3 h-9" alt="instagram icon" />
                 </Navbar.Brand>
