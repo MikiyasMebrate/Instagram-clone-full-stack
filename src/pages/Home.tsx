@@ -3,7 +3,7 @@ import Header from "../components/header/Header"
 import Story from "../components/header/Story"
 import StoryModal from "../components/modal/StoryModal"
 import PostCard from "../components/card/PostCard"
-import FooterMenu from "../components/footer/FooterMenu"
+
 
 const Home = () => {
     const [openStory, setOpenStory] = useState<boolean>(false)

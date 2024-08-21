@@ -1,9 +1,6 @@
 import { FaEdit } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
-import { Tabs } from "flowbite-react";
-import { HiAdjustments, HiClipboardList, HiUserCircle } from "react-icons/hi";
-import { MdDashboard } from "react-icons/md";
 
 const Message = () => {
     return (
