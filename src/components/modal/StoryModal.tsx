@@ -1,10 +1,8 @@
 "use client";
 
-import { Modal } from "flowbite-react";
+import { Modal, Carousel } from "flowbite-react";
 import { FaShareSquare } from "react-icons/fa";
-import { FaRegHeart, FaX } from "react-icons/fa6"
-
-import mikeMebrate from "../../assets/image/user/mikemebrateStory.jpg"
+import { FaRegHeart } from "react-icons/fa6"
 import { BsThreeDots, BsX } from "react-icons/bs";
 
 type StoryModalProps = {
@@ -24,7 +22,13 @@ const StoryModal = ({ openModal, setOpenModal }: StoryModalProps) => {
                     </div>
                     <Modal.Body className="bg-black p-0 w-full">
                         <div className="w-full h-[calc(100vh-290px)]">
-                            <img className="w-full" src={mikeMebrate} alt="mikeMebrate" />
+                            <Carousel slideInterval={5000}>
+                                <img src="https://flowbite.com/docs/images/carousel/carousel-1.svg" alt="..." />
+                                <img src="https://flowbite.com/docs/images/carousel/carousel-2.svg" alt="..." />
+                                <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" alt="..." />
+                                <img src="https://flowbite.com/docs/images/carousel/carousel-4.svg" alt="..." />
+                                <img src="https://flowbite.com/docs/images/carousel/carousel-5.svg" alt="..." />
+                            </Carousel>
                         </div>
                     </Modal.Body>
                     <Modal.Footer className="bg-black p-3 ">

@@ -8,7 +8,7 @@ type StoryProps = {
 const Story = ({setOpenModal} : StoryProps) => {
     return (
         <>
-            <div className="border-b border-b-slate-700 mb-5">
+            <div className="border-b border-b-slate-700 ">
                 <div className="flex ps-6 mt-3 overflow-x-auto gap-6 w-full text-white">
 
                     <NavLink to="/" className="text-center text-xs" onClick={setOpenModal}>
