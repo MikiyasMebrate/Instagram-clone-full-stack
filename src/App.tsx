@@ -18,11 +18,11 @@ const router = createBrowserRouter([
         element : <Search />
       },
       {
-        path : "Instagram-clone-full-stack/messages",
+        path : "/Instagram-clone-full-stack/messages",
         element : <Message />,
         children : [
           {
-            path : "Instagram-clone-full-stack/messages/general",
+            path : "/Instagram-clone-full-stack/messages/general",
             element : <Message />
           }
         ]

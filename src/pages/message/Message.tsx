@@ -6,7 +6,7 @@ const Message = () => {
     return (
         <>
             <section className="flex text-white text-2xl items-center m-3 justify-between">
-                <NavLink to="/"> <FaArrowLeft /></NavLink>
+                <NavLink to="/Instagram-clone-full-stack"> <FaArrowLeft /></NavLink>
                 <div><p className=" text-xl font-bold">mikemebrate</p></div>
                 <div>
                     <FaEdit />
