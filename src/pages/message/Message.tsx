@@ -14,9 +14,9 @@ const Message = () => {
             </section>
 
             <section className="w-11/12 mx-auto flex justify-between text-white text-base gap-4">
-                <NavLink to="/messages"  className={({isActive}) => `w-full text-center pb-3 ${isActive ? 'border-b' : ''} text-slate-300`}>Primary</NavLink>
-                <NavLink to="/messages/general" className={({isActive}) => `w-full text-center pb-3 ${isActive ? 'border-b' : ''} text-slate-300`}>General</NavLink>
-                <NavLink to="/messages/requests" className={({isActive}) => `w-full text-center pb-3 ${isActive ? 'border-b' : ''} text-slate-300`}>Requests</NavLink>
+                <NavLink to="/Instagram-clone-full-stack/messages"  className={({isActive}) => `w-full text-center pb-3 ${isActive ? 'border-b' : ''} text-slate-300`}>Primary</NavLink>
+                <NavLink to="/Instagram-clone-full-stack/messages/general" className={({isActive}) => `w-full text-center pb-3 ${isActive ? 'border-b' : ''} text-slate-300`}>General</NavLink>
+                <NavLink to="/Instagram-clone-full-stack/messages/requests" className={({isActive}) => `w-full text-center pb-3 ${isActive ? 'border-b' : ''} text-slate-300`}>Requests</NavLink>
             </section>
 
             

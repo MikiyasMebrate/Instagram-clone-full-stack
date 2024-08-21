@@ -1,5 +1,6 @@
 {
-  "name": "client",
+  "homepage": "https://MikiyasMebrate.github.io/Instagram-clone-full-stack",
+  "name": "Instagram-clone-full-stack",
   "private": true,
   "version": "0.0.0",
   "type": "module",

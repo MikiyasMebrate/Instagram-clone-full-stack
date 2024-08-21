@@ -6,23 +6,23 @@ import Message from './pages/message/Message'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Instagram-clone-full-stack",
     element: <><Outlet /><FooterMenu /></>,
     children: [
       {
-        path: "/",
+        path: "/Instagram-clone-full-stack",
         element: <Home />
       },
       {
-        path : "/search",
+        path : "/Instagram-clone-full-stack/search",
         element : <Search />
       },
       {
-        path : "/messages",
+        path : "Instagram-clone-full-stack/messages",
         element : <Message />,
         children : [
           {
-            path : "/messages/general",
+            path : "Instagram-clone-full-stack/messages/general",
             element : <Message />
           }
         ]

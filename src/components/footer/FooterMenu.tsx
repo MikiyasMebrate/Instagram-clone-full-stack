@@ -12,10 +12,10 @@ const FooterMenu = () => {
         <>
             <Footer className="bg-black h-12 flex items-center rounded-none text-slate-200 fixed bottom-0 left-0 right-0 md:w-1/4" container>
                 <div className="flex justify-between items-center gap-5 w-full text-2xl">
-                    <NavLink to="/"> <HiHome /></NavLink>
-                    <NavLink to="/search"><FaSearch /></NavLink>
+                    <NavLink to="/Instagram-clone-full-stack"> <HiHome /></NavLink>
+                    <NavLink to="/Instagram-clone-full-stack/search"><FaSearch /></NavLink>
                     <div> <TfiVideoClapper /></div>
-                    <NavLink to="/messages"> <AiOutlineMessage /></NavLink>
+                    <NavLink to="/Instagram-clone-full-stack/messages"> <AiOutlineMessage /></NavLink>
                     <div>
                         <img className="w-7 rounded-full" src={mike} alt="mike" />
                     </div>
